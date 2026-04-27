@@ -32,7 +32,7 @@ The key design principle: **templates are starting points, not cages.** Claude a
 
 Run this single command in your terminal:
 ```bash
-npx add-skill edytajordan/hubspot-prompts-skill
+npx skills add edytajordan/hubspot-prompts-skill
 ```
 This pulls the skill directly from GitHub and installs it into your local Claude skills directory. No manual downloading or copying needed.
 
