@@ -28,16 +28,24 @@ The key design principle: **templates are starting points, not cages.** Claude a
 3. Open the `.skill` file — Claude will show a **"Save skill"** button
 4. Click it — done! The skill is now available in all your Cowork sessions
 
-### Option 2: Manual Install
+### Option 2: Install via npx (CLI)
+
+Run this single command in your terminal:
+```bash
+npx add-skill edytajordan/hubspot-prompts-skill
+```
+This pulls the skill directly from GitHub and installs it into your local Claude skills directory. No manual downloading or copying needed.
+
+### Option 3: Manual Install
 
 1. Clone or download this repo:
    ```bash
    git clone https://github.com/YOUR_USERNAME/hubspot-prompts-skill.git
    ```
-2. Copy the contents (SKILL.md, prompt-index.md, and the `prompts/` folder) into your Claude skills directory
+2. Copy the `.claude/skills/hubspot-prompts` folder into your project's `.claude/skills/` directory
 3. Restart Claude Desktop if needed
 
-### Option 3: Build the .skill File Yourself
+### Option 4: Build the .skill File Yourself
 
 If you've made changes and want to repackage:
 ```bash
