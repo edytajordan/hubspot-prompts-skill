@@ -40,7 +40,7 @@ This pulls the skill directly from GitHub and installs it into your local Claude
 
 1. Clone or download this repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/hubspot-prompts-skill.git
+   git clone https://github.com/edytajordan/hubspot-prompts-skill.git
    ```
 2. Copy the `.claude/skills/hubspot-prompts` folder into your project's `.claude/skills/` directory
 3. Restart Claude Desktop if needed
